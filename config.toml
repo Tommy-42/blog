@@ -1,0 +1,51 @@
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+canonifyURLs = true
+publishDir = "docs"
+baseURL = "https://tommy.pageard.fr"
+title = "Did you Go ?"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsCodefences = true
+pygmentsStyle= "friendly"
+googleAnalytics = "UA-114312341-1"
+
+# Pagination
+paginate =                    10
+
+[Params]
+  	subtitle = "Some Go Experiences"
+	logo = "img/icon.png"
+  	favicon = "img/favicon.ico"
+  	dateFormat = "January 2, 2006"
+  	commit = false
+  	rss = true
+  	comments = true
+    addThis = "ra-5a870eacf900683d"
+    [Params.staticman]
+    api = "https://api.staticman.net/v2/entry/Tommy-42/blog/master/comments"
+    pulls = "https://github.com/Tommy-42/blog/pulls"
+    [Params.staticman.recaptcha]
+      sitekey = "6Le90UYUAAAAABdlqH9wBbuXngm0yfZdOdIAR1un"
+
+[Author]
+    name = "Tommy PAGEARD"
+	github = "tommy-42"
+	twitter = "tommy_pageard"
+	linkedin = "tommypageard"
+    website = "https://tommy.pageard.fr"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
