@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Did you Go ?</title>
+    <link>https://tommy.pageard.fr/</link>
+    <description>Recent content on Did you Go ?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tommy.pageard.fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Protobuf Plugin</title>
+      <link>https://tommy.pageard.fr/posts/go-protobuf-plugin/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommy.pageard.fr/posts/go-protobuf-plugin/</guid>
+      <description>I am excited to do my first blog post on something that could really help people out there ! </description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://tommy.pageard.fr/page/about/</link>
+      <pubDate>Thu, 23 Mar 2017 22:25:56 +0000</pubDate>
+      
+      <guid>https://tommy.pageard.fr/page/about/</guid>
+      <description>Hey !!
+I am Tommy, I do like gaming, programming, rugby.
+I was born and raised in the South of France but I live and work in Paris now.
+I work at Vente Privée a French ecommerce company that pioneered the model of online flash sales. #vptech
+My favourite programming languages are Go. I found something in Go that really please me.
+You can find me on the Gophers Slack under the id Tommy PAGEARD</description>
+    </item>
+    
+  </channel>
+</rss>

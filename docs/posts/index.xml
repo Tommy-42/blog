@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Did you Go ?</title>
+    <link>https://tommy.pageard.fr/posts/</link>
+    <description>Recent content in Posts on Did you Go ?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tommy.pageard.fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Protobuf Plugin</title>
+      <link>https://tommy.pageard.fr/posts/go-protobuf-plugin/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tommy.pageard.fr/posts/go-protobuf-plugin/</guid>
+      <description>I am excited to do my first blog post on something that could really help people out there ! </description>
+    </item>
+    
+  </channel>
+</rss>

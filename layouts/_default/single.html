@@ -6,9 +6,9 @@
         {{ .Content }}
       </article>
 
-      <div class="addthis_inline_share_toolbox"></div>
+      {{ if ne .Type "page" }}
+        {{ partial "share_buttons.html" . }}
 
-      {{ if or (not (isset .Params "paginate")) .Params.paginate }}
         <ul class="pager blog-pager">
           {{ if .PrevInSection }}
             <li class="previous">
@@ -23,16 +23,15 @@
         </ul>
       {{ end }}
 
-      {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
+
+      {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (and .Site.Params.comments (ne .Type "page"))) }}
         {{ if .Site.DisqusShortname }}
           <div class="disqus-comments">
             {{ template "_internal/disqus.html" . }}
           </div>
         {{ end }}
         {{ if .Site.Params.staticman }}
-          <div class="staticman-comments">
-            {{ partial "staticman-comments.html" . }}
-          </div>
+            {{ partial "post_comments.html" . }}
         {{ end }}
       {{ end }}
 

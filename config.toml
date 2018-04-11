@@ -1,18 +1,13 @@
-languageCode = "en-us"
-DefaultContentLanguage = "en"
-canonifyURLs = true
 publishDir = "docs"
+canonifyURLs = true
 baseURL = "https://tommy.pageard.fr"
+DefaultContentLanguage = "en"
 title = "Did you Go ?"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsCodefences = true
 pygmentsStyle= "friendly"
 googleAnalytics = "UA-114312341-1"
-
-# Pagination
-paginate = 10
-paginatePath = "posts"
 
 [Params]
   	subtitle = "Some Go Experiences"
@@ -22,14 +17,14 @@ paginatePath = "posts"
   	commit = false
   	rss = true
   	comments = true
-    addThis = "ra-5a870eacf900683d"
+    readingTime = true
+
     [Params.staticman]
-    api = "https://api.staticman.net/v2/entry/Tommy-42/blog/master/comments"
-    pulls = "https://github.com/Tommy-42/blog/pulls"
-    [Params.staticman.recaptcha]
-      enable = true
-      sitekey = "6Le90UYUAAAAABdlqH9wBbuXngm0yfZdOdIAR1un"
-      secret = "ZYXqmBwTxKrMuKaI/bMTFyFBJCaJzV9LyDfuYGXgBFzHhCpdWwcPsBBHnDIVckySXITma3HJdSAhTsAd4wpSGVkzuJkqhKZ9mRDc0OW9lfc5XjFOTIfp9UrHIYr9KGLkXjOyrxR7SfjQU7hJp995JOfuzEHDUB1IKLpj87+hDC0="
+        api = "https://api.staticman.net/v2/entry/Tommy-42/blog/master/comments"
+        pulls = "https://github.com/Tommy-42/blog/pulls"
+        [Params.staticman.recaptcha]
+            sitekey = "6Le90UYUAAAAABdlqH9wBbuXngm0yfZdOdIAR1un"
+            secret = "ZYXqmBwTxKrMuKaI/bMTFyFBJCaJzV9LyDfuYGXgBFzHhCpdWwcPsBBHnDIVckySXITma3HJdSAhTsAd4wpSGVkzuJkqhKZ9mRDc0OW9lfc5XjFOTIfp9UrHIYr9KGLkXjOyrxR7SfjQU7hJp995JOfuzEHDUB1IKLpj87+hDC0="
 
 [Author]
     name = "Tommy PAGEARD"
